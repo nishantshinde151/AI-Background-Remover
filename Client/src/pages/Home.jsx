@@ -1,8 +1,13 @@
+import Header from "../components/Header"
+import Steps from "../components/Steps"
 
 
 const Home = () => {
   return (
-    <div></div>
+    <div>
+      <Header />
+      <Steps />
+    </div>
   )
 }
 
