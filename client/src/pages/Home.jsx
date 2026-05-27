@@ -1,9 +1,16 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/Header.jsx'
+import Steps from '../components/Steps.jsx'
+import BgSlider from '../components/BgSlider.jsx'
+
 
 const Home = () => {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Steps />
+      <BgSlider />
+    </div>
   )
 }
 
